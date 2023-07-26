@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+}
+body {
+    background-color: gray;
+    height: 100vh;
+    display: flex;
+    color: white;
+
+}
+.padre {
+    margin: auto 100px;
+}
+.section {
+    margin-bottom: 40px;
+}
+div{
+    display: block;
+}
+
+.primero {
+    background-color: #cb2140;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    flex-grow: 2;
+}
+.segundo {
+    background-color: #0c1f2c;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+.etiquetas {
+    display: flex;
+    gap: 30px;
+    margin: 0px 0px 15px 0px;
+}
+
+img {
+    width: 100px;
+    margin: 15px;
+  
+}
+
+h2 {
+    margin: 25px 10px 20px 10px;
+    text-align: center;
+}
+
+p {
+    font-size: 7px;
+}
+
+.etiquetas p {
+    border: 2px solid #cb2140;
+    border-radius: 20px;
+    padding: 3px 5px;
+}
+h3 {
+    font-size: 10px;
+    margin: 10px 0px;
+}
+.p-especial {
+    font-size:  10px;
+    margin: 0px 15px 0px;
+    
+}
+.precio {
+    margin: 0px 10px 15px;
+    font-size: 15px;
+}
+
+button {
+background-color: #cb2140;
+color: white;
+padding: 6px 20px;
+font-size: 6px;
+border-radius: 20px ;
+border: none;
+margin: 0px 0px 20px;
+}
+
+@media (min-width:500px) {
+    .padre {
+        display: flex;
+    }
+    .primero {
+        width: 450px;
+        display: flex;
+        align-items: center;
+        border-radius: 10px 0px 0px 10px;
+    }
+    .segundo {
+        width: 60%;
+        border-radius: 0px 10px 10px 0px;
+        display: flex;
+        align-items: flex-start;
+        padding: 0px 25px;
+    }
+    img {
+        width: 200px;
+        margin: 25px;
+        height: 175px;
+    }
+    h2, p, h3, {
+        text-align: start;
+    }
+    
+    h2 {
+        margin: 20px 0px 10px 0px;
+    }
+    
+
+}
